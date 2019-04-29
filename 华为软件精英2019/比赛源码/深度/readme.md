@@ -10,3 +10,12 @@
 ### 本地训练：
 	需要注释3到6行moxing部分，若在windows下还需要注释50和54行num_workers
 	python3 train.py --data_url  data --train_url output --cuda 1 --workers 7
+### 云端训练参数
+	data_url = data路径
+	train-url = train路径
+	lr = 0.001
+	cuda = 1
+	workers = 7 
+	
+## for deploy 
+	注意数据预处理要保持一致= =（预设即一致）

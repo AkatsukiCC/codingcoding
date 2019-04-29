@@ -1,5 +1,6 @@
 ## 车牌识别部分。
-使用不定长识别网络crnn。backbon使用resnet，参数基于resnet的crnn论文。识别率线上96左右。
+使用不定长识别网络crnn。backbon使用resnet，参数基于resnet的crnn论文。识别率线上96左右。（pytorch，不定长，resnet+lstm）
+ps:最近会去找“南山辣子鸡”战队的浩哥py（浩哥深度线上平均正确率99%+，TF，定长网络，dense201+linear）
 ## for train
 ### 数据存放格式
 	-data

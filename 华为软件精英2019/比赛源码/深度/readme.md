@@ -8,5 +8,5 @@
 	  -train-data-label.txt
 
 ### 本地训练：
-        需要注释3到6行moxing部分，若在windows下还需要注释50和54行num_workers
-        python3 train.py --data_url  data --train_url output --cuda 1 --workers 7
+	需要注释3到6行moxing部分，若在windows下还需要注释50和54行num_workers
+	python3 train.py --data_url  data --train_url output --cuda 1 --workers 7
